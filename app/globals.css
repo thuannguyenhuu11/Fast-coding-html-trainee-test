@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: white !important;
+}
+
+@media (max-width: 640px) {
+  .swiper-pagination {
+    display: none !important;
+  }
+}
