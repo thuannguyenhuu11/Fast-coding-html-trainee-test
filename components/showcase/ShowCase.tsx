@@ -23,7 +23,7 @@ const ShowCase = () => {
           className="p-5 flex gap-5 rounded-lg border border-blueMedium bg-gradient-to-t from-[#29abc7] via-[#71d9e5] to-[#81e3ed] drop-shadow-[0_2px_1.5px_rgba(0,0,0,0.2)] shadow-[inset_0_2px_0.5px_rgba(255,255,255,0.1)]"
         >
           <Image src={DowloadIcon} alt="Download icon" width={20} height={20} />
-          <p className="text-[14px lg:text-[18px] leading-5 text-[#0d0707] font-bold">DOWNLOAD PSD</p>
+          <p className="text-[14px] lg:text-[18px] leading-5 text-[#0d0707] font-bold">DOWNLOAD PSD</p>
         </button>
       </div>
     </section>
